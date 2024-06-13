@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const LogIn = () => {
   return (
     <div>
+        <NavBar/>
           <h1><center>log in</center></h1>
         <div className="container">
             <div className="row">
@@ -17,7 +19,7 @@ const LogIn = () => {
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                    <br /> <button className="btn btn-success">log in</button>
-                   <br /><br /><a href="">click here to sign in!</a>
+                   <br /><br /><a href="/signup">click here to sign in!</a>
                 </div>
             </div>
         </div>
